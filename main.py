@@ -27,7 +27,7 @@ GAS_ALL_ADC_THRESH = 4500
 #Logging constants
 LOG_DELAY = 5*60    # minimal number of seconds to wait/
                             # between subsequent sensor Logging
-SAMPLE_DELAY = 5
+SAMPLE_DELAY = 10
 
 #Define MQTT topics:
 TEMPERATURE_CHIPA = "/sensor/Chipa/temperature"
